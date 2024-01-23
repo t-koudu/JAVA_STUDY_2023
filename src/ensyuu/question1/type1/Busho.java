@@ -1,4 +1,4 @@
-package ensyuu;
+package ensyuu.question1.type1;
 
 public class Busho {
 	private int bushoBango;

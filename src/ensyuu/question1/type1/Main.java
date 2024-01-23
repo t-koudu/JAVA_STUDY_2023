@@ -1,4 +1,4 @@
-package ensyuu;
+package ensyuu.question1.type1;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -11,8 +11,8 @@ import java.util.stream.Collectors;
 
 public class Main {
 
-	private static final String SHAIN_INFO_TSV = "src/ensyuu/shain_info.tsv";
-	private static final String BUSHO_INFO_TSV = "src/ensyuu/busho_info.tsv";
+	private static final String SHAIN_INFO_TSV = "src/ensyuu/question1/shain_info.tsv";
+	private static final String BUSHO_INFO_TSV = "src/ensyuu/question1/busho_info.tsv";
 
 	public static void main(String[] args) {
 		List<Shain> shainList = new ArrayList<Shain>();

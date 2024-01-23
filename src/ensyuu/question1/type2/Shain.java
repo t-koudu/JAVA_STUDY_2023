@@ -1,6 +1,6 @@
-package ensyuu;
+package ensyuu.question1.type2;
 
-public class Shain {
+public class Shain extends BaseData {
 	private int shainBango;
 	private String name;
 	private int age;
@@ -42,5 +42,15 @@ public class Shain {
 	public String toString() {
 		return "Shain [shainBango=" + shainBango + ", name=" + name + ", age=" + age + ", bushoBango=" + bushoBango
 				+ "]";
+	}
+
+	@Override
+	public BaseData create(String[] arr) {
+		Shain shain = new Shain();
+		shain.setShainBango(Integer.parseInt(arr[0]));
+		shain.setName(arr[1]);
+		shain.setAge(Integer.parseInt(arr[2]));
+		shain.setBushoBango(Integer.parseInt(arr[3]));
+		return shain;
 	}
 }
